@@ -8,5 +8,3 @@ def create_filled_array(shape, kind):
         return np.zeros(shape, dtype=np.float64)
     elif kind == 'ones':
         return np.ones(shape, dtype=np.float64)
-    else:
-        raise ValueError("kind must be 'zeros' or 'ones'")
